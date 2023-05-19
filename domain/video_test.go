@@ -6,7 +6,7 @@ import (
 	"videoEncoder/domain"
 
 	uuid "github.com/satori/go.uuid"
-	require "github.com/stretchr/testify/require"
+	"github.com/stretchr/testify/require"
 )
 
 func TestValidateIfVideoIsEmpty(t *testing.T) {
